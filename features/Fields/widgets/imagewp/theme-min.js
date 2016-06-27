@@ -1,0 +1,1 @@
+!function($){$(function(){$(".slick-slider.center").slick({centerMode:!0,centerPadding:0,slidesToShow:1,centerPadding:"13%",customPaging:0,adaptiveHeight:!0,responsive:[{breakpoint:640,settings:{arrows:!1,centerMode:!0,slidesToShow:1}}]})})}(jQuery);

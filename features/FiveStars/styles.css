@@ -1,0 +1,26 @@
+.five-stars-box .star {
+	display: inline-table;
+	width: 19px;
+	height: 17px;
+	line-height: 17px;
+	margin: 1px 0 1px 6px;
+	overflow: hidden;
+	text-indent: -99999px;
+	cursor: pointer;
+	background-size: 100%; 
+	background-image: url( 'images/stars.png' ); 
+}
+.five-stars-box .star:first-child {
+	margin-left: 0;
+}
+.five-stars-box .star.active { 
+	background-position: 0 100%; 
+}
+@media (max-width: 640px) {
+	.five-stars-box .star {
+		width: 12px;
+		height: 11px;
+		line-height: 11px;
+		margin-left: 1px;
+	}
+}

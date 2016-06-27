@@ -1,0 +1,96 @@
+#pikiform-postfield-modal.pikishare form.PikiForm {
+	padding: 0;
+}
+#pikiform-postfield-modal.pikishare .form-header {
+	display: none;
+}
+#pikiform-postfield-modal.pikishare .region-default > .linha-field {
+	border-bottom: #c3c0ab 1px solid;
+	margin: 0;
+	padding: 4px 16px;
+}
+#pikiform-postfield-modal.pikishare .region-default label {
+	display: block;
+	line-height: 42px;
+	font-size: .8em;
+	letter-spacing: -0.03em;
+}
+#pikiform-postfield-modal.pikishare .fake-field {
+	display: block;
+	padding: 0 10px;
+	line-height: 42px;
+	font-size: .8em;
+	font-weight: 400;
+}
+#pikiform-postfield-modal.pikishare .region-default > .linha-field > .linha-field-label {
+	float: left;
+	width: 15%;
+	margin: 0;
+}
+#pikiform-postfield-modal.pikishare .region-default > .linha-field > .field-item {
+	float: left;
+	width: 85%;
+}
+#pikiform-postfield-modal.pikishare .region-default textarea,
+#pikiform-postfield-modal.pikishare .region-default input {
+	border-color: #fff;
+	font-weight: 400;
+	font-size: .8em;
+}
+#pikiform-postfield-modal.pikishare .region-default textarea {
+	resize: none;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+#pikiform-postfield-modal.pikishare .footer-form {
+	padding: 14px 16px;
+}
+#pikiform-postfield-modal.pikishare form.PikiForm .footer-form .status {
+	font-size: .8em;
+	font-weight: 400;
+}
+#pikiform-postfield-modal.pikishare #status-message {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#pikiform-postfield-modal.pikishare #status-message .reload-form {
+	display: table;
+	margin: 30px auto 0;
+}
+#pikiform-postfield-modal.pikishare .region-default > .linha-field {
+	*zoom: 1;
+}
+#pikiform-postfield-modal.pikishare .region-default > .linha-field:after,
+#pikiform-postfield-modal.pikishare .region-default > .linha-field:before {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+#pikiform-postfield-modal.pikishare .region-default > .linha-field:after {
+	clear: both;
+}
+
+.pikishare a {
+	float: left;
+	margin: 0 3px;
+}
+.pikishare i.icon {
+	font-size: 1.6em;
+	color: #000;
+	line-height: 20px;
+}
+.pikishare i.icon-mail {
+	font-size: 2em;
+}
+
+.piki-social-links ul {
+	list-style: none;
+}
+.piki-social-links ul li {
+	float: left;
+	margin-left: 20px;
+}
+.piki-social-links ul li i {
+	font-size: 2.6em;
+	line-height: 27px;
+}
