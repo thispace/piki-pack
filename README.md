@@ -1,2 +1,2 @@
 # piki-pack
-Pacote Piki de plugins para wordpress
+Pacote Piki de plugins para wordpress.
